@@ -1,0 +1,68 @@
+/*My Curriculum Vitae
+K. Cahillane
+08.02.2023*/
+body{
+    background-color:darkgrey;
+    text-align:center;
+    font-family:'Courier New', Courier, monospace ;
+    color:white;
+}
+@media all and (max-width:300px){
+    body{
+        background-color:darksalmon;
+    }
+}
+h1{
+    font-size:50px;
+}
+h2{
+    font-size:40px;
+    color:darkcyan;
+}
+h3{
+    color:grey;
+}
+
+.shadow{
+    text-shadow:1px 1px;
+}
+.keyword{
+    text-decoration:underline;
+    font-weight:bold;
+}
+.list{
+    list-style-type:disc;
+    list-style-position:outside;
+    text-align:left;
+}
+.container{
+        display:flex;
+}    
+ .container-1{
+        display:row;
+        flex:1;
+        text-align:left;
+        background-color: cadetblue;
+ }  
+.container-2{
+        flex:3;
+        background-color: azure;
+        color: black;
+}
+.container div{
+        border:1px #ccc solid;
+        padding:10px;
+}
+.skill{
+    display:flex;
+    justify-content: space-around;
+}
+.skillbox{
+    flex-basis: 25%;
+}
+.green-box-1{
+    flex:20%;
+}
+.green-box-2{
+    height: 80%;
+}
